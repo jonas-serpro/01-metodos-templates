@@ -1,0 +1,83 @@
+.select {
+    cursor: pointer;
+    // &__display {
+    display: flex;
+    flex-flow: row nowrap;
+
+    border: 1px solid var(--color);
+    width: auto;
+
+    border-radius: 0.25rem;
+    border: 1px solid rgba(var(--color-rgb), 0.5);
+    // border-color: transparent;
+    font-size: 1em;
+    // padding: 0.5rem 1rem;
+    outline: none;
+    background-color: rgba(var(--color-rgb), 0);
+    // color: #000;
+    color: var(--color);
+    // }
+
+    position: relative;
+
+    &__display {
+        padding: 1rem;
+        white-space: nowrap;
+    }
+
+    &__button {
+        user-select: none;
+        background: var(--color);
+        color: rgba(255, 255, 255, 0.8);
+        padding: 1rem;
+        border-left: 1px solid rgba(var(--color-rgb), 0.5);
+        &:hover {
+            // background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: inset 0 0 1rem rgba(255, 255, 255, 0.3), 0 0 1rem rgba(255, 255, 255, 0.5);
+        }
+        &:active {
+            // background-color: rgba(var(--primary-light-rgb), 0.4);
+            box-shadow: inset 1rem 1rem 0.5rem -0.75rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    &__list {
+        position: absolute;
+        top: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1px;
+        border: 1px solid rgba(var(--color-rgb), 0.5);
+        z-index: 9999;
+        background: white;
+        // padding: 1rem 0.5rem;
+        width: 100%;
+    }
+
+    &__option {
+        transition-property: border-left;
+        transition-duration: 150ms;
+        transition-timing-function: ease-out;
+
+        display: inline-block;
+        padding: 1rem 0.5rem;
+        user-select: none;
+        // border-bottom: 1px solid rgba(var(--color-rgb), 0.1);
+
+        border-left: 0 solid transparent;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            // box-shadow: inset 1rem 1rem 0.5rem -0.75rem rgba(255, 255, 255, 0.3), 0 0 1rem rgba(255, 255, 255, 0.5);
+            font-weight: 900;
+            border-left: 1rem solid rgba(var(--color-rgb), 0.5);
+            // padding-left: 1.5rem;
+            // padding-right: 0.5rem;
+            // padding-top: 1.2rem;
+            // padding-bottom: 1.2rem;
+        }
+        &:active {
+            background-color: rgba(var(--primary-light-rgb), 0.4);
+        }
+    }
+}

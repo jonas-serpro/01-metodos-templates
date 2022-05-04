@@ -1,0 +1,35 @@
+<!-- <div class="panel timer ratio1-1"> -->
+<div class="timer">
+  <h3>Timer</h3>
+  <div class="row align-items-center">
+    <div class="row__item align-items-center">
+      <button
+        type="button"
+        class="timer__button"
+        (click)="start()"
+        *ngIf="!startTime"
+      >
+        Start
+      </button>
+      <button
+        type="button"
+        class="timer__button"
+        (click)="stop()"
+        *ngIf="startTime && !stopTime"
+      >
+        Stop
+      </button>
+      <button
+        type="button"
+        class="timer__button"
+        (click)="clear()"
+        *ngIf="stopTime"
+      >
+        Clear
+      </button>
+    </div>
+    <div class="row__item align-items-center" *ngIf="display !== undefined">
+      <div class="timer__number">{{ display }}</div>
+    </div>
+  </div>
+</div>
