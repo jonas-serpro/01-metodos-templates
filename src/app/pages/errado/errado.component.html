@@ -1,0 +1,38 @@
+<div class="main">
+  <h1>{{ title }}</h1>
+  <div
+    class="row"
+    style="justify-content: center; width: 100%; flex-wrap: nowrap"
+  >
+    <app-form-local
+      class="row__item panel"
+      style="max-width: 500px"
+      (changed)="onFormChanged($event)"
+    >
+    </app-form-local>
+  </div>
+  <div class="row" style="justify-content: center">
+    <div class="row__item">
+      <div class="panel h-100" style="width: 450px">
+        <h3 style="margin-top: 2rem">Resultado</h3>
+        <div class="result">
+          <span class="result__text">{{ concatenandoPorMetodo() }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr style="margin: 3rem 0" />
+  <div
+    class="row"
+    style="justify-content: center; width: 100%; flex-wrap: nowrap"
+  >
+    <app-counter class="row__item panel"></app-counter>
+    <app-timer class="row__item panel"></app-timer>
+    <div class="row__item">
+      <div class="panel">
+        <h3>Select</h3>
+        <app-select></app-select>
+      </div>
+    </div>
+  </div>
+</div>
