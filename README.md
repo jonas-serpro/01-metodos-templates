@@ -4,7 +4,7 @@
 https://github-yrhjvi.stackblitz.io/comparativo
 
 ## Somente o formato de métodos (problema)
-/demonstracao
+https://github-yrhjvi.stackblitz.io/demonstracao
 
 ## Somente o formato de variáveis (solução)
-/solucao
+https://github-yrhjvi.stackblitz.io/solucao
