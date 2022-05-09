@@ -6,7 +6,7 @@
 
 Repositório - https://github.com/jonas-serpro/01-video-metodos-templates
 
-## ▶️ Demontrações
+## ▶️ Demonstrações
 
 Para que um menu não influenciasse nas medições, os seguintes acessos estão disponíveis através de URL.
 
