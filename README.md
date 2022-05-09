@@ -2,7 +2,7 @@
 
 🎞️ Vídeo
 
-[![Por que não devemos utilizar métodos para renderizar valores calculados nos templates do Angular?](http://i.imgur.com/7YTMFQp.png)](https://web.microsoftstream.com/video/c1b6d211-0b5d-417e-b7b5-ad844a395ff6 "Por que não devemos utilizar métodos para renderizar valores calculados nos templates do Angular? - Click to Watch!")
+[![Por que não devemos utilizar métodos para renderizar valores calculados nos templates do Angular?](https://serprogovbr-my.sharepoint.com/:i:/r/personal/jonas_ruth_serpro_gov_br/Documents/Video%20Thumbs/Sele%C3%A7%C3%A3o_365.png?csf=1&web=1&e=V83pr5)](https://web.microsoftstream.com/video/c1b6d211-0b5d-417e-b7b5-ad844a395ff6 "Por que não devemos utilizar métodos para renderizar valores calculados nos templates do Angular? - Click to Watch!")
 
 ## Código-fonte
 
