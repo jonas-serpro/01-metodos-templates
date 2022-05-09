@@ -27,7 +27,7 @@ import { ErradoComponent } from './pages/errado/errado.component';
       {
         path: '',
         pathMatch: 'full',
-        redirectTo: 'demonstracao',
+        redirectTo: 'comparativo',
       },
       {
         path: 'demonstracao',
@@ -43,7 +43,7 @@ import { ErradoComponent } from './pages/errado/errado.component';
       },
       {
         path: '**',
-        redirectTo: 'demonstracao',
+        redirectTo: 'comparativo',
       },
     ]),
     BrowserModule,
