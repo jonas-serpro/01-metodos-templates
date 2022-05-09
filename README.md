@@ -4,7 +4,7 @@
 
 ## 🤓 Código-fonte
 
-https://github.com/jonas-serpro/01-video-metodos-templates
+Repositório - https://github.com/jonas-serpro/01-video-metodos-templates
 
 ## ▶️ Demontração
 
