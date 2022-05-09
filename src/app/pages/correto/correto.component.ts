@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ILocal } from 'src/app/components/form-local/form-local.component';
+import { ILocal } from '../../components/form-local/form-local.component';
 
 @Component({
   selector: 'app-correto',
