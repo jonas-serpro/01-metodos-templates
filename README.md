@@ -1,6 +1,6 @@
 # Por que não devemos utilizar métodos para renderizar valores calculados nos templates do Angular?
 
-🎞️ Assista https://web.microsoftstream.com/video/c1b6d211-0b5d-417e-b7b5-ad844a395ff6
+🎞️ Assista ao vídeo - https://web.microsoftstream.com/video/c1b6d211-0b5d-417e-b7b5-ad844a395ff6
 
 ## 🤓 Código-fonte
 
